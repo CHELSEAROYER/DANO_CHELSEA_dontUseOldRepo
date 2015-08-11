@@ -7,4 +7,7 @@ var coffee = 5;
 var burgerKing = 9;
 var pizzaHut = 15;
 var wendys = 8;
-var takeOut = [mcdonalds, applebees, tacoBell, gasStation, coffee, burgerKing, pizzaHut, wendys]
+var pandaExpress = 11;
+var takeOut = [mcdonalds, applebees, tacoBell, gasStation, coffee, burgerKing, pizzaHut, wendys, pandaExpress]
+var total = (takeOut[0]+takeOut[2]+takeOut[3]+takeOut[4]+takeOut[5]+takeOut[6]+takeOut[7]+takeout[8]);
+console.log(total);
