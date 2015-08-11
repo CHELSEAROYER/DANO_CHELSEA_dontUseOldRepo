@@ -1,3 +1,6 @@
+//Chelsea Dano
+//08-11-2015
+//SDI Expressions Assignment!
 //Time to take a look at how much money I throw at the takeout industry. Totals of money spent on food within a two week period.
 var mcdonalds = 5;
 var applebees = 11;
