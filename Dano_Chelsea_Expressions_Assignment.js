@@ -8,3 +8,5 @@ var time = prompt ("What time is it right now?");
 var letsGo = prompt ("When are you scheduled to leave work?);
 var timeLeft = letsGo-time;
 var result = ("You have"+ timeLeft +"left before it's time to go home!");
+alert(result);
+
