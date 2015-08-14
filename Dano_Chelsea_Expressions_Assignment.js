@@ -7,6 +7,7 @@ var location = prompt ("Are you at work today?");
 var time = prompt ("What time is it right now?");
 var letsGo = prompt ("When are you scheduled to leave work?);
 var timeLeft = letsGo-time;
+console.log(timeLeft);
 var result = ("You have"+ timeLeft +"left before it's time to go home!");
 alert(result);
 
