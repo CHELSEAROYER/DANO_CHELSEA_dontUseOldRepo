@@ -1,1 +1,31 @@
 //August 25th, 2015. Just practicing the content covered in the screen casts for this week.
+
+function calcArea(){ //code to be ran.
+var width=20;
+var height=30;
+var area=width*height;
+  console.log(area);
+}
+calcArea();   //this is the invocation.
+
+
+
+
+//Arguments & Parameters-
+
+funcName(argument1,argument2);
+function funcName(parameter1, parameter2){
+  //all the good stuff that the function runs.
+}
+//this is pretty abstract stuff.
+
+//note:Arguements are the bits of information sent to the function.
+calcArea(30,20);
+function calcArea(w,h){   //w=30,h=20
+var area=w*h;
+  console.log(area);
+}
+
+
+
+
