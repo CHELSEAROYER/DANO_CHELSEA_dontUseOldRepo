@@ -36,6 +36,32 @@ dogYears(4);  //these are the arguements, the stuff within the parenthesis.
 dogYears(5);
 
 
+//RETURNING VALUES.
+
+var total=calcArea(30,20);
+
+function calcArea (w,h){
+var area= w*h;
+return area; //this is what makes the function spit data out.
+}
+  console.log(total);  //this will make 30*20 print out on the console.
+  
+//A FUNCTION VS A PROCEDURE.
+
+//this is a function.
+function calcAreaF(width, height){
+var area=width*height;
+return area; //has the return, so it's a "function".
+}
+
+//this is a procedure.
+function calcAreaP(width,height){
+var area=width*height;
+  console.log(area); //does not have the return, so that makes this a prcedure. 
+  
+  
+
+
 
 
 
