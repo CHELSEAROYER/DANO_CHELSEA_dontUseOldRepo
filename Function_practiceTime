@@ -26,6 +26,16 @@ var area=w*h;
   console.log(area);
 }
 
+//More Functions and Parameters,
+function dogYears(age){   //the part in the parenthesis are the parameters.
+var dogYears=age*7;
+  console.log("Sparkey is "+dogYears+ " years old.")
+}
+
+dogYears(4);  //these are the arguements, the stuff within the parenthesis.
+dogYears(5);
+
+
 
 
 
